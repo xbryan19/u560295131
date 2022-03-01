@@ -1,0 +1,70 @@
+/*.panel-style {
+	color:red !important;
+	text-align: center;
+}*/
+
+ /*
+body {
+ margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px;
+	}*/
+
+
+#showcase {
+  position: relative;
+  background: url("../img/home.jpg") no-repeat center top fixed;
+   background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px; }
+  #showcase .primary-overlay {
+   background-color: rgba(225, 237, 232, 0.72);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 25px; }
+
+#authors .card:hover {
+  background: #3292a6;  background: #657ccb;
+  color: #fff; }
+  #authors .card:hover .fa {
+    color: #fff; }
+
+	  #authors .card:hover .text-muted {
+    color: #fff!important; }
+	
+
+  #main-footer a {
+    color: #fff; }
+
+@media (max-width: 576px) {
+  nav .container {
+    width: 100%; } 
+#showcase { 
+    min-height: 1000px; } 
+	}
+
+@media (max-width: 768px) {
+#showcase { 
+    min-height: 1000px; } 
+	}
+
+	}
